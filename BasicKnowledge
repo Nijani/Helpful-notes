@@ -1,3 +1,7 @@
+//get set paths on Windows (environment varibles)
+echo %PATH%
+echo %JAVA_HOME%
+
 //Stop Apache2
 net stop Apache2.2
 
