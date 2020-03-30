@@ -1,0 +1,19 @@
+//Stop Apache2
+net stop Apache2.2
+
+//Apache Web Server path
+C:\Apache24
+
+//stop 8080 running task in admin cmd
+net stop was /y
+
+//start Apache Server
+Windows-> services-> Apache right click-> start
+Browser http://localhost
+
+//Get Neximo certificate and add to keystore
+click padlock near to browser url -> details -> copy to file -> base64-encoded ->save
+
+//Run curl commands in postman
+import-> raw -> paste -> import
+Off SSL ceritficate and send the request
