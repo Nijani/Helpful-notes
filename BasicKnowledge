@@ -1,10 +1,11 @@
-# //Start with Gradle
+# heading1
+//Start with Gradle
 https://gradle.org/install/
 Installing manually
 set system variables GRADLE_HOME and Path
 check gradle -v
 
-## //SAMLAuthenticationProvider
+//SAMLAuthenticationProvider
 <dependency>
     <groupId>org.springframework.security.extensions</groupId>
     <artifactId>spring-security-saml2-core</artifactId>
