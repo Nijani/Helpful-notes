@@ -1,3 +1,34 @@
+//Start with Gradle
+https://gradle.org/install/
+Installing manually
+set system variables GRADLE_HOME and Path
+check gradle -v
+
+//SAMLAuthenticationProvider
+<dependency>
+    <groupId>org.springframework.security.extensions</groupId>
+    <artifactId>spring-security-saml2-core</artifactId>
+    <version>1.0.10.RELEASE</version> //version 2.0.0.M31 not supporting
+</dependency>
+
+//keystore.jks
+create a KeyStore using the JKS format as the database format for both the private key, and the associated certificate or certificate chain.
+
+//server.ssl.key-alias = spring
+to generate a self-signed certificate to enable HTTPS in a Spring Boot application. Use either PKCS12: Public Key Cryptographic Standards OR JKS: Java KeyStore
+
+//log in a folder path
+server.tomcat.accesslog.enabled=true
+server.tomcat.accesslog.suffix==log
+server.tomcat.accesslog.prefix==access_log
+server.tomcat.accesslog.file-date-format=yyyy-MM-dd
+server.tomcat.basedir=/Documents
+server.tomcat.accesslog.directory=logs
+server.tomcat.accesslog.patterns=common
+
+//Tomcat Server not starting with in 45 seconds
+Double click the “Tomcat V8.5.5…” by increasing the timeout to 240 seconds 
+
 //get set paths on Windows (environment varibles)
 echo %PATH%
 echo %JAVA_HOME%
