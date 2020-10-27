@@ -52,3 +52,6 @@ click padlock near to browser url -> details -> copy to file -> base64-encoded -
 //Run curl commands in postman
 import-> raw -> paste -> import
 Off SSL ceritficate and send the request
+
+//Run Angular project
+inside the directory "ng serve"
